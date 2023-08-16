@@ -41,14 +41,6 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Composable
 fun TaskManager(title: String, highlight: String, modifier: Modifier = Modifier) {
     Column(
         modifier = modifier.fillMaxSize(),
